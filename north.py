@@ -1,15 +1,8 @@
-from typing import Text
 import dash
 import dash_bootstrap_components as dbc
-from dash_bootstrap_components._components import Label, Row
-from dash_bootstrap_components._components.Col import Col
-from dash_bootstrap_components._components.PopoverBody import PopoverBody
-from dash_bootstrap_components._components.PopoverHeader import PopoverHeader
 import dash_core_components as dcc
 import dash_html_components as html
 from dash.dependencies import Output,Input
-from dash_html_components import Hr
-from dash_html_components.Br import Br
 import plotly.express as px
 import pandas as pd
 import sqlite3
